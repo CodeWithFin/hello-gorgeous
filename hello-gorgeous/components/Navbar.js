@@ -11,10 +11,17 @@ export default function Navbar() {
           <Link href="/shop" className="mx-4 text-gray-700 hover:text-pink-600">
             Shop
           </Link>
-          <Link href="/booking" className="mx-4 text-gray-700 hover:text-pink-600">
+          <Link
+            href="/booking"
+            className="mx-4 text-gray-700 hover:text-pink-600"
+          >
             Book Makeup
           </Link>
-          <Link href="/account" className="mx-4 text-gray-700 hover:text-pink-600">
+
+          <Link
+            href="/account"
+            className="mx-4 text-gray-700 hover:text-pink-600"
+          >
             Account
           </Link>
         </div>
